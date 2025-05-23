@@ -86,7 +86,10 @@ const Contact: React.FC = () => {
             </div>
 
             <div className="md:col-span-3">
-              <form onSubmit={handleSubmit} className="space-y-4">
+              <form 
+                  action="https://formspree.io/f/xzzrqkqn"
+                  method="POST" 
+                  className="space-y-4">
                 {submitStatus.message && (
                   <div
                     className={`p-4 rounded-lg ${
