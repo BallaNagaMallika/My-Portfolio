@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import { Project } from '../types';
-import clv from 'EDA.png';
-import netflix from 'Dashboard.png';
-import ayush from 'AYUSH1.png';
+import clv from './EDA.png';
+import netflix from './Dashboard.png';
+import ayush from './AYUSH1.png';
 import ecoaqua from './eco aqua.jpg';
-import book from 'book2.png';
+import book from './book2.png';
 
 const projectsData: Project[] = [
   {
