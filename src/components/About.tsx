@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import mallika from './mallika.jpg';
 
 const About: React.FC = () => {
   useEffect(() => {
@@ -33,7 +34,7 @@ const About: React.FC = () => {
             <div className="relative opacity-0 about-animate">
               <div className="w-[400px] h-[400px] aspect-square bg-gradient-to-tr from-blue-600 to-teal-400 rounded-lg overflow-hidden shadow-xl">
                 <img 
-                  src="src\components\mallika.jpg" 
+                  src={mallika} 
                   alt="Data Analytics" 
                   className="w-400 h-400 object-cover"
                 />
