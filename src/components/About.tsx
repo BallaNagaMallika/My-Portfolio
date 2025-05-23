@@ -49,8 +49,7 @@ const About: React.FC = () => {
               </h3>
               
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                I'm a curious mind exploring the world of data. As a B.Tech student with a passion for analytics, I love digging into numbers to uncover patterns, build solutions, and tell meaningful stories. Whether it's a dataset, a dashboard, or a predictive model—I enjoy turning information into action.
-              </p>
+                As a B.Tech student passionate about data, I’m driven by curiosity to explore, analyze, and extract meaningful insights. I enjoy working with datasets, building dashboards, and developing predictive models that turn raw data into impactful solutions. With a strong interest in analytics, I aim to solve real-world problems through data-driven decision-making.              </p>
               
               <p className="text-gray-600 dark:text-gray-300 mb-6">
                 I'm always excited to collaborate on impactful projects and grow in the field of data science.
