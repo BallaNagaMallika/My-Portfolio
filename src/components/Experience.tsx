@@ -8,7 +8,7 @@ const experienceData: Experience[] = [
     company: 'ALTAIR, AICTE',
     position: 'Data Science Intern',
     period: '2025-April - Present',
-    description: 'Led the development of modern web applications using React, TypeScript, and Next.js. Implemented CI/CD pipelines and improved application performance by 40%.'
+    description: 'Gained hands-on experience in data cleaning, preprocessing, and implementing machine learning models to derive meaningful insights from raw datasets.'
   },
   {
     id: '2',
