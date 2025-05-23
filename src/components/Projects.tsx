@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import { Project } from '../types';
+import clv from 'EDA.png';
+import netflix from 'Dashboard.png';
+import ayush from 'AYUSH1.png';
+import ecoaqua from './eco aqua.jpg';
+import book from 'book2.png';
 
 const projectsData: Project[] = [
   {
@@ -8,7 +13,7 @@ const projectsData: Project[] = [
     title: 'Predictive Analytics CLVP ',
     description: 'Synthesized RFM segmentation on 50,000+ customer records using Python and Pandas, and engineered a Streamlit–Power BI dashboard visualizing KPIs and EDA from 500,000+ sales transactions; empowered data driven marketing strategies and boosted customer retention insight accuracy by 30%. ',
     tags: ['Python', 'Power BI', 'Streamlit', 'scikit-learn'],
-    imageUrl: 'src/components/EDA.png',
+    imageUrl: clv,
     link: 'https://customer-analytics-clv-churn-rtupdf4i8vygvvatq5rgap.streamlit.app/',
     githubLink: 'https://github.com/BallaNagaMallika/Customer-Analytics-CLV-Churn',
   },
@@ -17,7 +22,7 @@ const projectsData: Project[] = [
     title: 'Netflix Dashboard',
     description: 'Analyzed and visualized a dataset of 1,000+ user records using Power BI, delivering actionable insights on subscription plans, regional engagement, and content preferences with a Netflix-themed UI, showcasing data storytelling and dashboard design expertise. ',
     tags: ['EDA', 'Power BI', 'Pandas', 'NumPy'],
-    imageUrl: 'src/components/Dashboard.png',
+    imageUrl: netflix,
     link: 'https://www.linkedin.com/posts/naga-mallika-balla-13003b27b_netflix-datavisualization-powerbi-activity-7309969320627843072-yhJJ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEQrrfQBDeLDJ2Ln33C0JgIemERQb4t69ok',
     githubLink: '#',
   },
@@ -26,7 +31,7 @@ const projectsData: Project[] = [
     title: 'AYUSH',
     description: 'Textured 5+ high-fidelity 3D plant models using Blender, following real-world botanical references for scientific accuracy.',
     tags: ['Blender', 'Python'],
-    imageUrl: 'src/components/AYUSH1.png',
+    imageUrl: ayush,
     link: '#',
     githubLink: 'https://github.com/BallaNagaMallika/AYUSH',
   },
@@ -35,7 +40,7 @@ const projectsData: Project[] = [
     title: 'Eco Aqua',
     description: 'Built a real-time water quality monitoring system visualized sensor data and alerts for critical values to ensure public safety.',
     tags: ['Express.js', 'Node.js', 'Firestore'],
-    imageUrl: 'src/components/eco aqua.jpg',
+    imageUrl: ecoaqua,
     link: '#',
     githubLink: 'https://github.com/BallaNagaMallika/eco-aqua',
   },
@@ -44,7 +49,7 @@ const projectsData: Project[] = [
     title: 'Book Rental System',
     description: 'Developed a book rental system using express.js and Firebase, enabling users to search, borrow, and return books seamlessly.',
     tags: ['Express.js', 'Node.js', 'Firestore'],
-    imageUrl: 'src/components/book2.png',
+    imageUrl: book,
     link: '#',
     githubLink: 'https://github.com/BallaNagaMallika/Rent-a-Book-App',
   },
